@@ -1,24 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .app-container {
-  border: 2px solid blue;
   max-width: 1280px;
-  position: absolute;
-  inset: 0;
-  margin: auto;
-  height: 70%;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 60% 40%;
-  
+  display: flex;
 }
 
 .left {
-  background-color: darkcyan;
+  background-color: white;
   border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
 }
 
+.left-content {
+  padding-top: 5.5rem;
+  padding-right: 2.5rem;
+  padding-left: 4rem;
+  height: 100%;
+}
+
+.left-content h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.left-content p {
+  line-height: 1.5rem;
+  width: 90%;
+  padding-bottom: 1.5rem;
+}
+
+.left-content ul {
+  line-height: 2rem;
+}
+
+.left-content li {
+  list-style-type: none;
+  background-image: url(../src/assets/images/icon-list.svg);
+  background-repeat: no-repeat;
+  padding-left: 2.5rem;
+}
+
 .right {
-  background-color: bisque;
+  background-color: white;
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+button {
+  width: 100%;
 }
