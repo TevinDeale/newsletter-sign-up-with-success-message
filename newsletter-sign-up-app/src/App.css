@@ -69,16 +69,15 @@
   border: 1px solid lightgray;
   border-radius: 10px;
   margin-bottom: 1rem;
-}
-
-.left-content input::placeholder {
-  padding-left: 1.5rem;
+  text-align: center;
 }
 
 .left-content button{
   border-radius: 10px;
   background-color: hsl(235, 18%, 26%);
   color: white;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .right {

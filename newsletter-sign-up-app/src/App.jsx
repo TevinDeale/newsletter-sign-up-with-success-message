@@ -15,7 +15,7 @@ function App() {
               <li>Measuring to ensure updates are a success</li>
               <li>And much more!</li>
             </ul>
-            <form>
+            <form onSubmit={(e) => e.preventDefault()}>
               <h4>Email address</h4>
               <input type="email" placeholder='email@company.com' />
               <br />
