@@ -17,32 +17,68 @@
 }
 
 .left-content {
-  padding-top: 5.5rem;
-  padding-right: 2.5rem;
+  padding-top: 6rem;
   padding-left: 4rem;
   height: 100%;
 }
 
 .left-content h1 {
-  font-size: 4rem;
-  padding-bottom: 2rem;
+  font-size: 3.5rem;
+  padding-bottom: 1.5rem;
+  width: 90%;
+  color: hsl(235, 18%, 26%);
 }
 
 .left-content p {
   line-height: 1.5rem;
+  padding-bottom: 1rem;
   width: 90%;
-  padding-bottom: 1.5rem;
+  color: hsl(235, 18%, 26%);
 }
 
 .left-content ul {
-  line-height: 2rem;
+  line-height: 2.3rem;
+  padding-bottom: 2rem;
+  color: hsl(235, 18%, 26%);
+  width: 90%;
 }
 
 .left-content li {
   list-style-type: none;
   background-image: url(../src/assets/images/icon-list.svg);
   background-repeat: no-repeat;
+  background-position: 0, 2px;
   padding-left: 2.5rem;
+}
+
+.left-content h4 {
+  font-size: .7rem;
+  color: hsl(235, 18%, 26%);
+  width: 90%;
+  padding-bottom: .7rem;
+}
+
+.left-content input, button {
+  width: 85%;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  font-size: 1rem;
+}
+
+.left-content input{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.left-content input::placeholder {
+  padding-left: 1.5rem;
+}
+
+.left-content button{
+  border-radius: 10px;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
 }
 
 .right {
@@ -50,9 +86,7 @@
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   overflow: hidden;
-  padding: 1.5rem;
-}
-
-button {
-  width: 100%;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
 }
