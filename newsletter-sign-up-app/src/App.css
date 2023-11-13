@@ -72,6 +72,11 @@
   text-align: center;
 }
 
+.left-content input:hover {
+  border: 1px solid hsl(231, 7%, 60%);
+  cursor: pointer;
+}
+
 .left-content button{
   border-radius: 10px;
   background-color: hsl(235, 18%, 26%);
@@ -79,6 +84,9 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+.left-content button:hover {
+  background-color: hsl(4, 100%, 67%);}
 
 .right {
   background-color: white;
