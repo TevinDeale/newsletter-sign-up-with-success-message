@@ -101,10 +101,14 @@
   color: white;
   font-weight: 700;
   cursor: pointer;
+  border: 0;
+  transition: .5s;
 }
 
 .left-content button:hover {
-  background-color: hsl(4, 100%, 67%);}
+  background:linear-gradient(to right, rgb(255,83,119), rgb(255,105,59));
+  box-shadow:10px 5px 20px 1px rgba(255, 105, 59, 0.588);
+}
 
 .right {
   background-color: white;
@@ -153,8 +157,11 @@
   border-radius: 5px;
   font-size: .9rem;
   cursor: pointer;
+  transition: .5s;
+  
 }
 
 .success-popup #button:hover {
-  background-color: hsl(4, 100%, 67%);
+  background:linear-gradient(to right, rgb(255,83,119), rgb(255,105,59));
+  box-shadow:10px 5px 20px 1px rgba(255, 105, 59, 0.588);
 }
