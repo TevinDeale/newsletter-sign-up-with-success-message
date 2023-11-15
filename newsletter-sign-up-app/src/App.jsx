@@ -8,7 +8,7 @@ function App() {
   const [valid, setValid] = useState('valid');
   const [inputValid, setInputValid] = useState('');
   const [popup, setPopup] = useState(' success');
-  const regex =  /^[a-zA-Z0-9+_.-]+@[a-zA-Z+-]+(\.[a-zA-z0-9]+)+$/g
+  const regex =  /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9+-]+(\.[a-zA-z0-9]+)+$/g
 
   const handleEmailVerification = () => {
    
