@@ -116,6 +116,46 @@
   padding-bottom: 1.5rem;
 }
 
-.valid {
+.valid, .success {
   display: none;
+}
+
+.success-popup {
+  border: 2px solid red;
+  background-color: white;
+  max-width: 46%;
+  padding: 3.3rem;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.success-popup h1 {
+  font-size: 3.3rem;
+  padding-bottom: 1.5rem;
+  color: hsl(235, 18%, 26%);
+  line-height: 3.5rem;
+  padding-top: 2rem;
+}
+
+.success-popup p {
+  line-height: 1.5rem;
+  padding-bottom: 2.5rem;
+  color: hsl(235, 18%, 26%);
+  font-size: 1rem;
+}
+
+.success-popup #button {
+  padding:0;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: .9rem 0;
+  border-radius: 5px;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+.success-popup #button:hover {
+  background-color: hsl(4, 100%, 67%);
 }
