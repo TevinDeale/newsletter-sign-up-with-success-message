@@ -51,14 +51,15 @@ function App() {
                 <h4>Email address</h4>
                 <h4 className={valid} id="invalid-email">Valid email required</h4>
               </div>
-              <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder='email@company.com' id={inputValid} />
+              <input onChange={(e) => setEmail(e.target.value)} onClick={() => {setInputValid(''); setValid('valid')}} type="email" placeholder='email@company.com' id={inputValid} />
               <br />
               <button onClick={handleEmailVerification}>Subscribe to monthly newsletter</button>
             </form>
           </div>
         </main>
         <main className={`right${good}`}>
-          <img src='../src/assets/images/illustration-sign-up-desktop.svg' alt='illustration' />
+          <img id='desktop-illustration' src='../src/assets/images/illustration-sign-up-desktop.svg' alt='illustration' />
+          <img id='mobile-illustration' src='../src/assets/images/illustration-sign-up-mobile.svg' alt='illustration' />
         </main>
       </div>
     </div>

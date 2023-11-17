@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .app-container {
@@ -102,7 +102,7 @@
   font-weight: 700;
   cursor: pointer;
   border: 0;
-  transition: .5s;
+  transition: .2s;
 }
 
 .left-content button:hover {
@@ -164,4 +164,94 @@
 .success-popup #button:hover {
   background:linear-gradient(to right, rgb(255,83,119), rgb(255,105,59));
   box-shadow:10px 5px 20px 1px rgba(255, 105, 59, 0.588);
+}
+
+#mobile-illustration {
+  display: none;
+}
+
+@media (max-width: 970px) {
+
+  .app-container {
+    flex-direction: column-reverse;
+  }
+
+  #mobile-illustration {
+    display: block;
+    width: 100%;
+  }
+
+  #desktop-illustration {
+    display: none;
+  }
+
+  .left {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-width: 80%;
+    max-width: 100%;
+  }
+
+  .left-content {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+    padding: 2.5rem;
+  }
+
+  .left-content h1 {
+    font-size: 3rem;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;;
+    min-width: 80%;
+    max-width: 100%;
+  }
+
+  .left-content input, button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .app-container {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .left {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .right {
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 476px) {
+  .left-content ul {
+    line-height: 1.5rem;
+  }
+
+  .left-content li{
+    line-height: 1.4rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+  }
 }

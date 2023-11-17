@@ -12,10 +12,12 @@
 
 body {
   min-height: 100vh;
+  min-height: 100dvh;
   background-color: hsl(235, 18%, 26%);
 }
 
 #root {
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
