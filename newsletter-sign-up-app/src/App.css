@@ -147,7 +147,8 @@
   font-size: 1rem;
 }
 
-.success-popup #button {
+.success-popup button {
+  border: 0;
   padding:0;
   background-color: hsl(235, 18%, 26%);
   color: white;
@@ -157,7 +158,7 @@
   border-radius: 5px;
   font-size: .9rem;
   cursor: pointer;
-  transition: .5s;
+  transition: .2s;
   
 }
 
@@ -242,6 +243,10 @@
     border-radius: 0;
     width: 100%;
   }
+
+  .success-popup {
+    min-width: 80%
+  }
 }
 
 @media (max-width: 476px) {
@@ -253,5 +258,14 @@
     line-height: 1.4rem;
     padding-top: .25rem;
     padding-bottom: .25rem;
+  }
+
+  .success-popup {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 0;
+    padding: 2rem;
+    height: 100svh;
+    padding-top: 10rem;
   }
 }

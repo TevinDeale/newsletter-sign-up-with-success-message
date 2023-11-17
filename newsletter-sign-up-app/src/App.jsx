@@ -34,7 +34,7 @@ function App() {
             <h1>Thanks for subscribing!</h1>
             <p>A confirmation email has been sent to <strong>{email}</strong>. Please Open it and
             click the button inside to confirm your subscription. </p>
-            <p onClick={() => {window.location.reload()}} id='button'>Dismiss message</p>
+            <button onClick={() => {window.location.reload()}} id='button'>Dismiss message</button>
           </section>
         </main>
         <main className={`left${good}`}>
