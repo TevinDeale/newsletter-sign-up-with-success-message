@@ -58,8 +58,8 @@ function App() {
           </div>
         </main>
         <main className={`right${good}`}>
-          <img id='desktop-illustration' src='../src/assets/images/illustration-sign-up-desktop.svg' alt='illustration' />
-          <img id='mobile-illustration' src='../src/assets/images/illustration-sign-up-mobile.svg' alt='illustration' />
+          <img id='desktop-illustration' src='../assets/images/illustration-sign-up-desktop.svg' alt='illustration' />
+          <img id='mobile-illustration' src='../assets/images/illustration-sign-up-mobile.svg' alt='illustration' />
         </main>
       </div>
     </div>
