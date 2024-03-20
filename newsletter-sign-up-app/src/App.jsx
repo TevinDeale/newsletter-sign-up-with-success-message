@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+import illustration_desktop from "./assets/images/illustration-sign-up-desktop.svg"
+import illustration_mobile from "./assets/images/illustration-sign-up-mobile.svg"
+import success from "./assets/images/icon-success.svg"
 
 function App() {
 
@@ -30,7 +33,7 @@ function App() {
       <div className='app-container'>
         <main className={`success-popup${popup}`}>
           <section>
-            <img src='../src/assets/images/icon-success.svg' alt='checkmark' />
+            <img src={success} alt='checkmark' />
             <h1>Thanks for subscribing!</h1>
             <p>A confirmation email has been sent to <strong>{email}</strong>. Please Open it and
             click the button inside to confirm your subscription. </p>
@@ -58,8 +61,8 @@ function App() {
           </div>
         </main>
         <main className={`right${good}`}>
-          <img id='desktop-illustration' src='../assets/images/illustration-sign-up-desktop.svg' alt='illustration' />
-          <img id='mobile-illustration' src='../assets/images/illustration-sign-up-mobile.svg' alt='illustration' />
+          <img id='desktop-illustration' src={illustration_desktop} alt='illustration' />
+          <img id='mobile-illustration' src={illustration_mobile} alt='illustration' />
         </main>
       </div>
     </div>
