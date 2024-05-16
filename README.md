@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Newsletter Signup](https://newsletter.tevin-d.com/)
 
 ## My process
 
@@ -47,6 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/tevindeale)
-- Twitter - [@fiinntv](https://www.twitter.com/fiinntv)
+- Frontend Mentor - [@tevindeale](https://www.frontendmentor.io/profile/tevindeale)
+- Twitter - [@fiinnDEV](https://www.twitter.com/fiinnDEV)
